@@ -12,7 +12,7 @@ public class scope {
         greet(name);
     }
     
-    public static void greet( String name ) {
+    public static void greet(String name) {
         System.out.printf("Hello, %s\n",name);
         name="Tarang";
     }

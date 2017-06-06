@@ -16,11 +16,11 @@ public class rectangle {
         System.out.printf("Area: %d; Perimeter: %d\n", area, peri);
     }
     
-    public static int rectangleArea( int len, int wid) {
+    public static int rectangleArea(int len, int wid) {
         return len * wid;
     }
     
-    public static int rectanglePerimeter( int len, int wid) {
+    public static int rectanglePerimeter(int len, int wid) {
         return 2 * (len + wid);
     }
 }
