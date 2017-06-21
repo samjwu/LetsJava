@@ -8,7 +8,8 @@ public class card {
     private int rank;
 
     /**
-     * Create a new card
+     * Constructor (method to init object) to create a new card
+     * https://www.javatpoint.com/constructor
      * @param card (int): zero indexed cards counting from 0-51
     */
     public card(int card) {
@@ -17,7 +18,7 @@ public class card {
     }
 
     /**
-    Create a new card
+    Constructor to create a new card
      * @param rank (int): representation of the rank
      * @param suit (int): representation of the suit
      */
@@ -82,8 +83,8 @@ public class card {
     @Override //toString is a built-in fxn
     public String toString() {
         String ranks = "23456789TJQKA";
-        String suits =  "\u2663\u2666\u2665\u2660"; //"CDHS";
-        return ranks.charAt(rank) +  "" + suits.charAt(suit);
+        String suits =  "\u2663\u2666\u2665\u2660"; //unicode symbols for suits;
+        return ranks.charAt(rank) + "" + suits.charAt(suit);
     }
 
 }

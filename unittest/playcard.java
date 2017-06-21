@@ -9,7 +9,7 @@ public class playcard {
     public static void main(String[] args) {
         Random gen = new Random();
         card c1 = new card(rank.Ace,suit.Hearts);
-        card c2 = new card(gen.nextInt(52));
+        card c2 = new card(gen.nextInt(52)); //rand card from 0-51
         
         System.out.printf("Cards: %s %s\n",c1.toString(),c2.toString());
         System.out.printf("Same RANK : %s\n", c1.sameRank(c2));
