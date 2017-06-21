@@ -11,7 +11,7 @@ public class card {
      * Create a new card
      * @param card (int): zero indexed cards counting from 0-51
     */
-    public Card(int card) {
+    public card(int card) {
         rank = card % 13;
         suit = (card / 13) % 4;
     }
@@ -21,7 +21,7 @@ public class card {
      * @param rank (int): representation of the rank
      * @param suit (int): representation of the suit
      */
-    public Card(int rank, int suit ) {
+    public card(int rank, int suit ) {
         this.suit = suit % 4;
         this.rank = rank % 13;
     }
@@ -44,7 +44,7 @@ public class card {
      * @param card2 (Card): the card to compare to this card
      * @return true if same suit, false otherwise
      */
-    public boolean sameSuit(Card card2) {
+    public boolean sameSuit(card card2) {
         return (this.suit == card2.suit);
     }
     
@@ -53,7 +53,7 @@ public class card {
      * @param card2 (Card): the card to compare to this card
      * @return true if the same rank, false otherwise
      */
-    public boolean sameRank(Card card2) {
+    public boolean sameRank(card card2) {
         return (this.rank == card2.rank);
     }
     
@@ -62,7 +62,7 @@ public class card {
      * @param card2 (Card): the card to compare to this card
      * @return true if they are the same card
      */
-    public boolean sameCard(Card card2) {
+    public boolean sameCard(card card2) {
         return (this.sameRank(card2) && this.sameSuit(card2));
     }
     
@@ -71,7 +71,7 @@ public class card {
      * @param card2 (Card): the card to compare to this card
      * @return an integer difference between this card and c
      */
-    public int rankDiff(Card card2) {   
+    public int rankDiff(card card2) {   
         return (this.rank - card2.rank);
     }
     

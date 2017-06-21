@@ -1,14 +1,15 @@
 package unittest;
 
 import java.util.Random;
-import card;
+// import unittest.rank;
+// import unittest.suit;
 
 public class playcard {
 
     public static void main(String[] args) {
         Random gen = new Random();
-        Card c1 = new Card(Ranks.Ace,Suits.Hearts);
-        Card c2 = new Card(gen.nextInt(52));
+        card c1 = new card(rank.Ace,suit.Hearts);
+        card c2 = new card(gen.nextInt(52));
         
         System.out.printf("Cards: %s %s\n",c1.toString(),c2.toString());
         System.out.printf("Same RANK : %s\n", c1.sameRank(c2));
