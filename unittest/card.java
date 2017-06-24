@@ -11,15 +11,15 @@ public class card {
      * Constructor (method to init object) to create a new card
      * https://www.javatpoint.com/constructor
      * @param card (int): zero indexed cards counting from 0-51
-    */
+     */
     public card(int card) {
         rank = card % 13;
         suit = (card / 13) % 4;
     }
 
     /**
-    Constructor to create a new card
-    polymorphism/overloading
+     * Constructor to create a new card
+     * polymorphism/overloading
      * @param rank (int): representation of the rank
      * @param suit (int): representation of the suit
      */

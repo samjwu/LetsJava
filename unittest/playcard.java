@@ -1,8 +1,7 @@
 package unittest;
 
 import java.util.Random;
-// import unittest.rank;
-// import unittest.suit;
+import unittest.testrank;
 
 public class playcard {
 
@@ -15,5 +14,9 @@ public class playcard {
         System.out.printf("Same RANK : %s\n", c1.sameRank(c2));
         System.out.printf("Same SUIT : %s\n", c1.sameSuit(c2));
         System.out.printf("Same CARD : %s\n", c1.sameCard(c2));
+
+        //unit tests
+        testrank unittest = testrank();
+        unittest.testonerank();
     }
 }
