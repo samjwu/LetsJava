@@ -19,6 +19,7 @@ public class card {
 
     /**
     Constructor to create a new card
+    polymorphism/overloading
      * @param rank (int): representation of the rank
      * @param suit (int): representation of the suit
      */
