@@ -11,7 +11,7 @@ public class character {
         * Create a new character (player or monster)
         * @param name  name of character
         * @param health  number of health points
-        * @param armorClass armor points
+        * @param armor armor points
         * @param weapon weapon the character uses
         */
        public Actor(String name, int health, int armor, Weapon weapon)
@@ -45,7 +45,7 @@ public class character {
         * get the current weapon
         * @return weapon object
         */
-       public Weapon weapon() { return this._weapon; }
+       public weapon weapon() { return this._weapon; }
        
        /**
         * Detects if the character is dead (health <=0)
