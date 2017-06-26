@@ -5,7 +5,7 @@ public class character {
        private String _name;    
        private int _health;     
        private int _armor; 
-       private Weapon _weapon;   
+       private weapon _weapon;   
        
        /**
         * Create a new character (player or monster)
@@ -14,7 +14,7 @@ public class character {
         * @param armor armor points
         * @param weapon weapon the character uses
         */
-       public Actor(String name, int health, int armor, Weapon weapon)
+       public character(String name, int health, int armor, weapon weapon)
        {
            this._name = name;
            this._health = health;

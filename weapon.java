@@ -14,7 +14,7 @@ public class weapon {
      * @param action the verb which describes the weapon attack
      * @param maxDamage the maximum amount of damage the weapon does
      */
-    public Weapon(String name, String action, int maxDamage)
+    public weapon(String name, String action, int maxDamage)
     {
         this._name = name;
         this._action = action;

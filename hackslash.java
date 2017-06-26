@@ -9,10 +9,11 @@ public class hackslash {
      * A hack/slash simulator
      */
     public static void main(String[] args) {
+        //name, action, max dmg
         weapon sword = new weapon("Sword", "Slash", 10);
         weapon club = new weapon("Club", "Bash", 8);
         //name, hp, armor, weapon
-        character player = new character("Paladin", 20, 10, sword);
+        character player = new character("Paladin", 20, 3, sword);
         character monster = new character("Troll", 30, 0, club);
         dice d20 = new dice(20);
         
