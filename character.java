@@ -25,31 +25,31 @@ public class character {
        
        /**
         * Get the character name
-        * @return 
+        * @return char name
         */
        public String name() { return _name; }
        
        /**
         * Get the current health
-        * @return 
+        * @return health
         */
        public int health() { return _health; }
     
        /**
         * get the current armor
-        * @return 
+        * @return armor
         */
        public int armor() { return _armor; }
        
        /** 
         * get the current weapon
-        * @return 
+        * @return weapon object
         */
        public Weapon weapon() { return this._weapon; }
        
        /**
         * Detects if the character is dead (health <=0)
-        * @return 
+        * @return boolean
         */
        public boolean isDead() {
            return (this._health <=0);
@@ -58,7 +58,7 @@ public class character {
        /**
         * Applies damage to the character
         * @param amount the amount of damage to apply
-        * @return
+        * @return int dmg taken
         */
        public int takeDamage(int amount) {
            this._health = this._health - amount;

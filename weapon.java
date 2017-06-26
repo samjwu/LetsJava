@@ -30,13 +30,13 @@ public class weapon {
 
     /**
      * The Action of the weapon
-     * @return 
+     * @return weapon action verb
      */
     public String action() { return _action; }
 
     /**
      * The maximum amount of damage the weapon can do
-     * @return 
+     * @return weapon max dmg
      */
     public int maxDamage() { return _maxDamage; }
     
