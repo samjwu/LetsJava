@@ -5,6 +5,9 @@ package moreselection;
  * Enumerations are custom data types with their own distinct set of values.
  * They're similar to a class with a constant, pre-defined set of objects.
  * 
+ * Primary purpose of enums are to establish values for a custom data type (specified using enum)
+ * These values are more legible since they can use any format instead of only integers
+ * 
  */
 public enum direction {
     //format of constructor: constant(value)

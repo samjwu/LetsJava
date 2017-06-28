@@ -6,6 +6,10 @@ package moreselection;
  * They're similar to a class with a constant, pre-defined set of objects.
  * https://crunchify.com/why-and-for-what-should-i-use-enum-java-enum-examples/
  * 
+ * Primary purpose of enums are to establish values for a custom data type (specified using enum)
+ * Thus new constants for the data type cannot be instantiated after java has built the enum
+ * (In this example, new constants [eg: NorthEast] cannot be instantiated in this enumeration class [enumeration.java] after the direction class has compiled [direction.java])
+ * 
  */
 public class enumeration {
 
