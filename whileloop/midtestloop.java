@@ -3,7 +3,7 @@ package whileloop;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
+/** Mid tests uses breaks if the condition is satisfied as the while loop runs
 * mid test loops are the most flexible
 * but the programmer must must determine when the loop should terminate/exit
 */
@@ -30,7 +30,7 @@ public class midtestloop {
             }
             else {
                 System.out.printf("Correct! The number was %d.\n", guess);
-                break; //exit the loop
+                break; //exit the loop if condition is satisfied
             }
         }
     }
