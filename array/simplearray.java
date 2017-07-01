@@ -25,6 +25,13 @@ public class simplearray {
         for (int i = 0; i < levels.length; i++)
         {
             System.out.printf("%d\t%s\t%d\n", i, classes[i], levels[i]);
-        }        
+        }
+
+        int total = 0;
+        for (int i = 0; i < levels.length; i++)
+        {
+            total += levels[i];
+        }
+        System.out.printf("Average level across all classes: %d\n", total/levels.length);
     }
 }
