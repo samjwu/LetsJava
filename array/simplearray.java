@@ -22,7 +22,7 @@ public class simplearray {
         System.out.printf("-------------------------\n");
         
         //for loops for enumerating array
-        for (int i=0;i<levels.length;i++)
+        for (int i = 0; i < levels.length; i++)
         {
             System.out.printf("%d\t%s\t%d\n", i, classes[i], levels[i]);
         }        
